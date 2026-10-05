@@ -3,50 +3,63 @@
   <head>
     <title>Umenne Favour Portfolio</title>
   </head>
-  <body>
-    <nav>
-      <a href="Home.html">Home</a>
-      <a href="About.html">About</a>
-      <a href="Skills.html">Skills</a>
-      <a href="Projects.html">Projects</a>
-      <a href="Contact.html">Contact</a>
-    </nav>
-
+  <body style="background-color: beige; padding: 5px;">
+    <header style="background-color:black; padding: 14px; display:flex; justify-content:space-around; align-items:center;">
+      <p style="color:white; font-weight:bold;">Logo</p>
+      <nav style="display:flex; justify-content:space-between; gap:20px; ">
+        <a href="Home.html" style="color:white; text-decoration:none;">Home</a>
+        <a href="About.html" style="color:white; text-decoration:none;">About</a>
+        <a href="Skills.html" style="color:white; text-decoration:none;">Skills</a>
+        <a href="Projects.html" style="color:white; text-decoration:none;">Projects</a>
+        <a href="Contact.html" style="color:white; text-decoration:none;">Contact</a>
+      </nav> 
+      <button style="background-color:white; color:black; border-radius: 6px; border: none; padding:10px 20px; cursor:pointer;">Contact Us</button>
+    </header>
+    <!-- Intro section -->
     <section>
-      <h1>Hi, I'm Africankwin</h1>
-      <p>
-        I'm a Computer science and aspiring UI/UX designer passionate about
-        creating simple, useful, and user-friendly digital experiences. I enjoy
-        combining creativity with technology to solve problems and build
+      <h1 title="Name" style="text-align:center; padding: 4px; text-decoration: underline;">Hi, I'm Africankwin</h1>
+      <p style="text-align:center; padding: 14px 40px;">
+        I'm a <b>Computer science and aspiring UI/UX designer</b> passionate about
+        creating simple, useful, and user-friendly digital experiences. <i>I enjoy
+        combining creativity with technology to solve problems</i> and build
         meaningful digital products.
-      </p>
-      <a href="First.html" target="_blank">View My Projects</a>
+      </p> 
+      <div style="display:flex; justify-content: center; ">
+      <button style="background-color:blue;  color:white; border: none; padding: 10px; display: flex; align-items:center; border-radius: 20px;"
+      onmouseover="this.style.backgroundColor='darkblue'; this.style.color='red';"
+      onmouseout="this.style.backgroundColor='blue'; this.style.color='white';"
+      > 
+        <a href="First.html" target="_blank" style="color:white; text-decoration:none;">View My Projects</a> 
+      </button>
+      </div>
     </section>
 
+    <!-- About Me section -->
     <section>
-      <h2>About Me</h2>
-      <p>
+      <h2 style=" background-color: rgb(3, 3, 3); color: white; padding: 20px 10px ;  border-radius: 5px; text-align: center;">About Me</h2>
+      <p style="color: black; padding: 2px; text-align: left; font-size: 15px;">
         I am a Computer Science student with a growing interest in technology,
         design, and software development. I enjoy learning how digital products
         work and finding ways to make them easier and more enjoyable for people
         to use.
       </p>
-      <p>
+      <p style="color: black; padding: 2px; text-align: left; font-size:15px;">
         My main interest is UI/UX design, where I explore user research,
         wireframing, prototyping, and interface design. I am also developing my
         programming skills and learning how to turn ideas into functional
         digital products.
       </p>
-      <p>
+      <p style="color: black; padding: 2px; text-align: left; font-size: 15px; ">
         I am continuously learning, practicing, and working on personal projects
         to improve my skills and prepare myself for opportunities in the
         technology industry.
       </p>
     </section>
 
-    <section>
-      <h2>My Skills</h2>
-      <ul>
+    <!-- My Skills section -->
+      <h2 style=" background-color: rgb(3, 3, 3); color: white; padding: 20px 10px ;  border-radius: 5px; text-align: center;">My Skills</h2>
+      <div style="background-color:rgb(253, 253, 253); color:black; padding: 20px; text-align:left; ">
+      <ul style="display: flex; flex-direction: column; gap: 10px;">
         <li>UI/UX Design</li>
         <li>Figma</li>
         <li>User Research</li>
@@ -58,10 +71,12 @@
         <li>App Development</li>
         <li>Computer Networking</li>
       </ul>
+      </div>
     </section>
-
+    
+    <!-- Bite Food App -->
     <section>
-      <h2>Bite Food App</h2>
+      <h2 style="background-color: rgb(132, 5, 5); color:white; padding: 20px; text-align:center; ">Bite Food App</h2>
       <p>
         A food delivery app concept designed to make ordering meals simple and
         convenient. Bite is a food delivery app concept designed to make
@@ -69,12 +84,13 @@
         a clean and user-friendly experience from browsing meals to placing an
         order.
       </p>
-      <img src="Frame 17.png" alt="Bite Food App" />
+      <img src="Frame 17.png" alt="Bite Food App" style="width: 400px; height: auto" />
     </section>
 
+    <!-- Pheonix Royal Hotel -->
     <section>
-      <h2>Pheonix Royal Hotel</h2>
-      <p>
+      <h2 style="background-color: rgb(3, 113, 4); color:white; padding: 20px; text-align:center; ">Pheonix Royal Hotel</h2>
+      <p style="color: black; padding: 2px; text-align: left; font-size: 16px;">
         Phoenix Royal Hotel is a hotel website redesign project focused on
         creating a more modern and engaging user experience. The project allowed
         me to practice layout design, visual hierarchy, and user-friendly
@@ -83,12 +99,14 @@
       <img
         src="Pheonix Royal Hotel- Hero Section.png"
         alt="Pheonix Royal Hotel"
+        style="width: 400px; height: auto";
       />
     </section>
 
+    <!-- Lets Work Together -->
     <section>
-      <h2>Lets Work Together</h2>
-      <p>
+      <h2 style="background-color: rgb(3, 3, 3); color: white; padding: 20px; text-align:center; font-family:Georgia, 'Times New Roman', Times, serif; font-size: 15px; ">Lets Work Together</h2>
+      <p style="font-size: 16px; color: black;">
         Have a project, idea, or opportunity you'd like to discuss? I'd love to
         hear from you. Send me a message and let's connect.
       </p>
@@ -96,9 +114,9 @@
 
     <form>
       <div>
-        <div>
+        <div style="display: flex; flex-direction: column; gap: 10px; width: 300px;">
           <label for="name">Name:</label>
-          <input
+          <input style="border-radius: 10px; border: 1px solid rgb(164, 159, 159); padding: 10px; background-color: rgb(253, 253, 253); "
             type="text"
             id="name"
             name="name"
@@ -107,9 +125,9 @@
           />
         </div>
 
-        <div>
+        <div style="display: flex; flex-direction: column; gap: 10px; width: 300px; margin: 10px 0px; ">
           <label for="email">Email:</label>
-          <input
+          <input style="border-radius: 10px; border:1px solid rgb(164, 159, 159); padding: 10px; background-color: white; color: #1095AB; placeholder-color: #1095AB;"
             type="email"
             id="email"
             name="email"
@@ -117,16 +135,19 @@
             required />
         </div>
 
-        <div>
+        <div style="display: flex; flex-direction:column; gap: 10px; width: 300px; margin-top: 10px;">
           <label for="message">Message:</label>
-          <textarea
+          <textarea style="border-radius: 10px; border: 1.1.5px solid rgb(164, 159, 159); padding: 10px; background-color: rgb(253, 253, 253); color: #000; placeholder-color: #000;"
             id="message"
             name="message"
             placeholder="Write your message here..." required>
         </textarea>
         </div>
       </div>
-      <button type="submit">Send Message</button>
+      <button style="margin-top: 10px; border-radius: 5px; border: 1px solid rgb(164, 159, 159); padding: 10px; background-color: rgb(12, 168, 15); color: white;" type="submit"
+      onmouseover="this.style.backgroundColor='darkgreen'; this.style.color='white';"
+      onmouseout="this.style.backgroundColor='rgb(12, 168, 15)'; this.style.color='white';"
+      >Send Message</button>
     </form>
   </body>
 </html>
